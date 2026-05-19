@@ -1,0 +1,16 @@
+# Nextflow work and caches
+work/
+.nextflow.log*
+
+# Runtime artifacts
+logs/
+reports/
+
+# Large bundles and output dumps
+*.err
+*.out
+*.tar.gz
+
+# User-requested large directories
+resources/
+containers/
